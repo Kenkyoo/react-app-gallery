@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+🖼️ React App Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación web moderna para explorar galerías de imágenes y videos, con gestión de usuarios y favoritos. El proyecto utiliza un diseño oscuro (Dark Mode) y una interfaz fluida basada en Material UI.
 
-## Available Scripts
+🚀 Link del Proyecto: Ver Demo en Vercel
 
-In the project directory, you can run:
+✨ Características
 
-### `npm start`
+🖼️ Galería de Imágenes: Visualización profesional con react-grid-gallery y lightgallery.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎥 Reproductor de Video: Integración con react-player y componentes de video específicos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔐 Autenticación: Gestión de usuarios mediante Firebase Auth.
 
-### `npm test`
+🔍 Búsqueda Avanzada: Filtros dinámicos para encontrar contenido específico.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+❤️ Favoritos: Posibilidad de guardar contenido preferido en el perfil del usuario.
 
-### `npm run build`
+📱 Responsive Design: Interfaz adaptativa construida con Material UI (MUI).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🌓 Tema Personalizado: Implementación de modo oscuro persistente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tecnologías
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend
 
-### `npm run eject`
+React 19 (Biblioteca principal)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Material UI (MUI) (Componentes y diseño)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React Router Dom v7 (Enrutamiento dinámico)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SWR (Fetch de datos y caché)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Hook Form (Manejo de formularios)
 
-## Learn More
+Backend & Herramientas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Firebase (Autenticación y base de datos)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Axios (Peticiones HTTP)
 
-### Code Splitting
+Vercel (Hosting y Deployment)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📦 Instalación
 
-### Analyzing the Bundle Size
+Si quieres ejecutar este proyecto localmente:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clona el repositorio:
 
-### Making a Progressive Web App
+git clone [https://github.com/Kenkyoo/react-app-gallery.git](https://github.com/Kenkyoo/react-app-gallery.git)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Entra en la carpeta del proyecto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+cd react-app-gallery
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Instala las dependencias:
 
-### `npm run build` fails to minify
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Configura las variables de entorno:
+Crea un archivo .env en la raíz con tus credenciales de Firebase (opcional si solo deseas ver la UI).
+
+Inicia la aplicación:
+
+npm start
+
+
+Creado por Kenkyoo - Proyecto para Portfolio.
